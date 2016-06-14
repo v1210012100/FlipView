@@ -11,7 +11,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
+        setContentView(R.layout.flip_layout);
         fontLayout=(FrameLayout)findViewById(R.id.front);
         backLayot=(FrameLayout)findViewById(R.id.back);
         fontLayout.setOnClickListener(this);
